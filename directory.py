@@ -21,7 +21,7 @@ def get_employee_details():
 
     # If the user didn't type anything, ask them to.
     if not name:
-        flash("Please type in a first name.")
+        flash("Please type in a first name.") 
 
     # If the name isn't in our directory, flash a message to the user.
     elif name.lower() not in employee_directory:
